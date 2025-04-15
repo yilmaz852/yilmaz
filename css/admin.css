@@ -1,0 +1,130 @@
+/**
+ * Ürün Tablosu Admin CSS
+ */
+.urun-tablosu-admin {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.urun-tablosu-admin h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #23282d;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Sekmeler */
+.urun-tablosu-admin .nav-tab-wrapper {
+    margin-bottom: 20px;
+}
+
+.urun-tablosu-admin .nav-tab {
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    color: #555;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 5px;
+    padding: 10px 15px;
+    transition: all 0.2s ease;
+}
+
+.urun-tablosu-admin .nav-tab-active,
+.urun-tablosu-admin .nav-tab:hover {
+    background: #fff;
+    border-bottom-color: #fff;
+    color: #0073aa;
+}
+
+/* Form elemanları */
+.urun-tablosu-admin .form-table {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: -1px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.urun-tablosu-admin .form-table th {
+    font-weight: 600;
+    color: #23282d;
+    width: 200px;
+    vertical-align: top;
+    padding: 20px 10px;
+}
+
+.urun-tablosu-admin .form-table td {
+    vertical-align: top;
+    padding: 15px 10px;
+}
+
+.urun-tablosu-admin input[type="text"],
+.urun-tablosu-admin input[type="number"],
+.urun-tablosu-admin select {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px 10px;
+}
+
+.urun-tablosu-admin .description {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+    font-style: italic;
+}
+
+/* Kullanım bölümü */
+.urun-tablosu-usage {
+    margin-top: 30px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.urun-tablosu-usage h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.urun-tablosu-usage code {
+    background: #f1f1f1;
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+/* Sütun düzenleme tablosu */
+#urun-tablosu-columns {
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+#urun-tablosu-columns th {
+    background: #f1f1f1;
+    padding: 10px;
+}
+
+#urun-tablosu-columns input[type="text"] {
+    width: 100%;
+}
+
+/* Renk özelleştirme için ön izleme */
+.color-preview {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Bildirimler */
+.urun-tablosu-admin .updated,
+.urun-tablosu-admin .error {
+    margin: 10px 0 20px;
+}
